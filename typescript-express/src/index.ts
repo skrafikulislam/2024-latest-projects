@@ -19,7 +19,7 @@ app.listen(8000, () =>
 );
 
 const MONGO_URL =
-  "mongodb+srv://typescript:nodejs@cluster0.afv85q1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+  "mongodb+srv://typescript:<password>@cluster0.afv85q1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 try {
   mongoose.connect(MONGO_URL).then(() => {
